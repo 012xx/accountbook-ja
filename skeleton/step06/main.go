@@ -12,7 +12,7 @@ func main() {
 	// AccountBookをNewAccountBookを使って作成
 	ab := NewAccountBook("accountbook.txt")
 
-LOOP: // 以下のループにラベル「LOOP」をつける
+	LOOP: // 以下のループにラベル「LOOP」をつける
 	for {
 
 		// モードを選択して実行する
@@ -30,7 +30,7 @@ LOOP: // 以下のループにラベル「LOOP」をつける
 
 			for i := 0; i < n; i++ {
 				if err := ab.AddItem(inputItem()); err != nil {
-					// TODO: os.Stderrにエラーメッセージを出す
+					fmt.Fprintln(os.Stderr, "エラー:", err)
 					break LOOP
 				}
 			}
@@ -38,14 +38,16 @@ LOOP: // 以下のループにラベル「LOOP」をつける
 			items, err := ab.GetItems(10)
 			if err != nil {
 				fmt.Fprintln(os.Stderr, "エラー:", err)
-				// TODO: LOOPという名前のついたforから抜け出す
+				break LOOP
 			}
 			showItems(items)
 		case 3: // 終了
-			// TODO: 3のとき「終了します」と出力して終了する
+			fmt.Println("終了します")
+			return
 		}
 	}
 }
+
 
 // Itemを入力し返す
 func inputItem() *Item {
