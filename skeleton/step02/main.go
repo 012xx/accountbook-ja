@@ -6,7 +6,8 @@ package main
 import "fmt"
 
 func main() {
-	// TODO: 品目を入れる変数を定義
+	// 品目を入れる変数を定義
+	var category string
 
 	// 値段を入れる変数を定義
 	var price int
@@ -16,8 +17,11 @@ func main() {
 	// 入力した結果をcategoryに入れる
 	fmt.Scan(&category)
 
-	// TODO: 「値段>」と表示する
+	// 「値段>」と表示する
+	fmt.Print("値段>")
+
 	// TODO: 入力した結果をpriceに入れる
+	fmt.Scan(&price)
 
 	// 「===========」と出力して改行する
 	fmt.Println("===========")
