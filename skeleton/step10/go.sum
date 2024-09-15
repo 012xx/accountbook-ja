@@ -2,6 +2,8 @@ github.com/mattn/go-sqlite3 v1.10.0 h1:jbhqpg7tQe4SupckyijYiy0mJJ/pRyHvXf7JdWK86
 github.com/mattn/go-sqlite3 v1.10.0/go.mod h1:FPy6KqzDD04eiIsT53CuJW3U88zkxoIYsOqkbpncsNc=
 github.com/remyoudompheng/bigfft v0.0.0-20170806203942-52369c62f446 h1:/NRJ5vAYoqz+7sG51ubIDHXeWO8DlTSrToPu6q11ziA=
 github.com/remyoudompheng/bigfft v0.0.0-20170806203942-52369c62f446/go.mod h1:uYEyJGbgTkfkS4+E/PavXkNJcbFIpEtjt2B0KDQ5+9M=
+github.com/tenntenn/greeting v1.0.0 h1:qiPrfPnqnfuzVqN3u1fnQdjh5YDQaN2YYB4mij22WF4=
+github.com/tenntenn/greeting v1.0.0/go.mod h1:E3Ht/04nVnsgPJqBdZYg2BmvqQJmRPxhIv6qX4RyE9Y=
 github.com/tenntenn/sqlite v1.0.2 h1:b7IRA375Ypp80KCkmnhuZdqMI7OFFwjLSU0Q928nc04=
 github.com/tenntenn/sqlite v1.0.2/go.mod h1:7MSQ3P3Gefd3Tcj/NSQsisdVcxfciQ7wGU3a+mdvFcQ=
 golang.org/x/net v0.0.0-20181201002055-351d144fa1fc h1:a3CU5tJYVj92DY2LaA1kUkrsqD5/3mLDhx2NcNqyW+0=
