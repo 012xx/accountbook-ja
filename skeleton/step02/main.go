@@ -20,7 +20,7 @@ func main() {
 	// 「値段>」と表示する
 	fmt.Print("値段>")
 
-	// TODO: 入力した結果をpriceに入れる
+	// 入力した結果をpriceに入れる
 	fmt.Scan(&price)
 
 	// 「===========」と出力して改行する
